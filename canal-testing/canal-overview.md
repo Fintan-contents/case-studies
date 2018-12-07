@@ -22,6 +22,8 @@
 
 ![canal全体構成](img/canal-overview.png)
 
+canalは、[T.E.O.S](https://www.tis.jp/service_solution/cloud/)というクラウドサービス上で稼働しています。
+
 ユーザーに対するインターフェースをScoold、データの保存・検索などにはParaというオープンソースのソフトウェアを採用しており、これらがcanalを構成する主要な要素となっています。
 
 canalではこのScooldとParaを、社内の環境やユーザーからの使い勝手を考慮したカスタマイズを行い、導入しています。
