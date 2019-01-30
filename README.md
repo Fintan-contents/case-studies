@@ -1,6 +1,7 @@
 # 事例
 
 * [結合テスト自動化事例](./canal-testing/README.md)
+* [性能テスト自動化事例](./performance-testing//README.md)
 
 
 ## ライセンス
