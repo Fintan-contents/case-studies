@@ -1,0 +1,3 @@
+user_id,mail_address,password,first_name,last_name,image_name
+"1","user1@example.com","","taro","yamada","image001.png"
+"2","user2@example.com","","hanako","sato","image002.png"

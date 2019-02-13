@@ -1,7 +1,10 @@
 # 事例
 
 * [結合テスト自動化事例](./canal-testing/README.md)
-* [性能テスト自動化事例](./performance-testing//README.md)
+* [性能テスト自動化事例](./performance-testing/README.md)
+* [SPA＋REST APIのシステム構成例（AWS）](./spa-rest-api-system-design-on-aws/README.md)
+* [モニタリング、監視、ログ収集の実践例（AWS）](./monitoring-on-aws/README.md)
+* [フルスタックエンジニア育成に関する取り組み](./full-stack-engineer-training/README.md)
 
 
 ## ライセンス

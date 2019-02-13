@@ -1,0 +1,42 @@
+version: 0.2
+
+env:
+  parameter-store:
+    SONARQUBE_TOKEN: "SONARQUBE_TOKEN"
+    SONARQUBE_ENDPOINT: "SONARQUBE_ENDPOINT"
+phases:
+  install:
+    commands:
+      - cd kanade-back
+      - wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-3.2.0.1227-linux.zip
+      - unzip sonar-scanner-cli-3.2.0.1227-linux.zip -d .build
+      - export PATH=$PATH:./.build/sonar-scanner-3.2.0.1227-linux/bin
+  pre_build:
+    commands:
+      - echo Pre build on `date`
+      - mvn checkstyle:check
+  build:
+    commands:
+      - echo Build started on `date`
+      - mvn package -DskipTests=true
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - sonar-scanner -Dsonar.login=${SONARQUBE_TOKEN} -Dsonar.host.url=${SONARQUBE_ENDPOINT}
+      - mvn spotbugs:check
+
+cache:
+  paths:
+    - '/root/.m2/**/*'
+
+artifacts:
+  type: zip
+  files:
+    - kanade-back/target/kanade-back-1.0-SNAPSHOT.jar
+    - kanade-back/appspec.yml
+    - kanade-back/script/start-kanade-service.sh
+    - kanade-back/script/stop-kanade-service.sh
+  discard-paths: yes
+
+    
+    

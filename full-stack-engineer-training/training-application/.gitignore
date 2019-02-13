@@ -1,0 +1,13 @@
+.idea
+.vscode
+tmp
+bin
+*.test
+*.swp
+*.iml
+*.DS_Store
+*.log
+Thumbs.db
+/kanade-back/target
+/kanade-front/dist
+/kanade-front/node_modules

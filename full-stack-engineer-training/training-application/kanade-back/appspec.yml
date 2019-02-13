@@ -1,0 +1,15 @@
+version: 0.0
+os: linux
+files:
+  - source: ./kanade-back-1.0-SNAPSHOT.jar
+    destination: /opt/kanade/bin
+    overwrite: yes
+hooks:
+  ApplicationStart:
+    - location: start-kanade-service.sh
+      timeout: 300
+      runas: ec2-user
+  ApplicationStop:
+    - location: stop-kanade-service.sh
+      timeout: 300
+      runas: ec2-user

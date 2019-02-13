@@ -1,0 +1,17 @@
+<configuration>
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>host:%h&#9;timeLog:%t{yyyy/MM/dd HH:mm:ss}&#9;ident:%l&#9;user:%u&#9;method:%m&#9;uri:%U%q&#9;protocol:%H&#9;status:%s&#9;size:%B&#9;msec:%D&#9;thread:%I</pattern>
+        </encoder>
+    </appender>
+    <appender-ref ref="CONSOLE" />
+
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>/var/log/kanade/access.log</file>
+        <encoder>
+            <pattern>host:%h&#9;timeLog:%t{yyyy/MM/dd HH:mm:ss}&#9;user:%u&#9;method:%m&#9;uri:%U%q&#9;protocol:%H&#9;status:%s&#9;thread:%I</pattern>
+        </encoder>
+    </appender>
+
+    <appender-ref ref="FILE" />
+</configuration>
