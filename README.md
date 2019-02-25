@@ -5,7 +5,9 @@
 * [SPA＋REST APIのシステム構成例（AWS）](./spa-rest-api-system-design-on-aws/README.md)
 * [モニタリング、監視、ログ収集の実践例（AWS）](./monitoring-on-aws/README.md)
 * [フルスタックエンジニア育成に関する取り組み](./full-stack-engineer-training/README.md)
-
+* [Azure DevOpsを活用したCI（ビルドパイプライン）の構築例](./ci-on-azure/README.md)
+* [AWSの開発者用ツールを活用したCI/CD構成例](./cicd-on-aws/README.md)
+* [StrutsからSpring MVCへのマイグレーション事例](./migration-from-struts-to-springmvc/README.md)
 
 ## ライセンス
 
