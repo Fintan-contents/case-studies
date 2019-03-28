@@ -8,6 +8,11 @@
 * [Azure DevOpsを活用したCI（ビルドパイプライン）の構築例](./ci-on-azure/README.md)
 * [AWSの開発者用ツールを活用したCI/CD構成例](./cicd-on-aws/README.md)
 * [StrutsからSpring MVCへのマイグレーション事例](./migration-from-struts-to-springmvc/README.md)
+* [ヘキサゴナルアーキテクチャ導入事例](./hexagonal-architecture/README.md)
+* [Android開発におけるモジュール化手法](./android-di-modules/README.md)
+* [Azure Boardsを使用したスクラム実践例](./scrum-on-azure/README.md)
+* [Reactを使ったフロントエンドのアーキテクチャ事例](./react-spa-architecture/README.md)
+* [SPA＋REST APIにおけるセッションを使った認証の実践例](./authn-authz-session/README.md)
 
 ## ライセンス
 
