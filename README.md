@@ -13,6 +13,8 @@
 * [Azure Boardsを使用したスクラム実践例](./scrum-on-azure/README.md)
 * [Reactを使ったフロントエンドのアーキテクチャ事例](./react-spa-architecture/README.md)
 * [SPA＋REST APIにおけるセッションを使った認証の実践例](./authn-authz-session/README.md)
+* [gRPCのServer-Streaming RPCを用いたPUSH通知の実現事例](./grpc-push-notification/README.md)
+* [redux-sagaを用いたReact/Reduxアプリケーションにおけるデータ通信の実現事例](./redux-saga/README.md)
 
 ## ライセンス
 
