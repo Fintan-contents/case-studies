@@ -113,7 +113,7 @@ JavaScriptにおける非同期処理関数の代表例に `setTimeout(callback[
   以下に上記と同じ処理をメソッドチェインで置き換えた場合と、async/awaitで置き換えた場合のサンプルコードを記載します。  
   
   ```javascript
-  const getAuthAsync =　(client, reqest) => {
+  const getAuthAsync =　(client, request) => {
     const { userId } = request
     return new Promise((resolve, reject) => {
       client.getAuth({'id': userId}, (err, res) => {
