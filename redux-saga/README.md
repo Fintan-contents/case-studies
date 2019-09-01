@@ -122,8 +122,8 @@ JavaScriptにおける非同期処理関数の代表例に `setTimeout(callback[
           return
         }
         resolve(res)
-      }))
-    }
+      })
+    })
   }
 
   const getSearchHistoryAsync = (client, condition) => {
