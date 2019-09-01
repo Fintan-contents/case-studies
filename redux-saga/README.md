@@ -137,7 +137,7 @@ JavaScriptにおける非同期処理関数の代表例に `setTimeout(callback[
     })
   }
 
-  const getRecommendAsync(client, request) => {
+  const getRecommendAsync = (client, request) => {
     return new Promise((resolve, reject) => {
       ...
     })
