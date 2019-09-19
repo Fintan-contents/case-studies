@@ -15,6 +15,7 @@
 * [SPA＋REST APIにおけるセッションを使った認証の実践例](./authn-authz-session/README.md)
 * [gRPCのServer-Streaming RPCを用いたPUSH通知の実現事例](./grpc-push-notification/README.md)
 * [redux-sagaを用いたReact/Reduxアプリケーションにおけるデータ通信の実現事例](./redux-saga/README.md)
+* [Architecture Decision Records導入事例](./architecture-decision-records/README.md)
 
 ## ライセンス
 
