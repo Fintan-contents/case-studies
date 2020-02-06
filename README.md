@@ -22,6 +22,9 @@
 * [AndroidアプリのUIテスト自動化事例](./android-ui-test-tool/README.md)
 * [関西地区でのスタートアップとのサービス開発事例](./kansai-service-dev/README.md)
 * [多点見積りとスケジューリングの実践](./rb-estimation/README.md)
+* [サービス開発する人にまねしてほしい、ログの集約と活用事例](./improvement-by-visualization/README.md)
+* [継続的に価値を届けるためのアプリケーションパッケージング・アップデート自動化事例](./electron-cd/README.md)
+* [ログの収集・格納・検索のためのElastic Stack設計ガイド](./elasticstack_introduction/README.md)
 
 ## ライセンス
 
