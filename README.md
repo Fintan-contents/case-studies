@@ -25,6 +25,7 @@
 * [サービス開発する人にまねしてほしい、ログの集約と活用事例](./improvement-by-visualization/README.md)
 * [継続的に価値を届けるためのアプリケーションパッケージング・アップデート自動化事例](./electron-cd/README.md)
 * [ログの収集・格納・検索のためのElastic Stack設計ガイド](./elasticstack_introduction/README.md)
+* [デザイナー&エンジニア協業で得た TIPS](./collaborate-designer-engineer/README.md)
 
 ## ライセンス
 
